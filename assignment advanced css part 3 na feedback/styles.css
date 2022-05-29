@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c3cfe2;
+  margin: 0;
+  right: 0;
+  bottom: 50px;
+  position: absolute;
+}
+
+.socialmedia {
+  max-width: 200px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  overflow: visible;
+}
+
+.blog::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 40px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "\f5fc";
+  color: white;
+  background-color: #e17b77;
+  padding: 0;
+  margin-right: 0;
+  transform: translateX(0px);
+  transition-duration: 1000ms;
+}
+
+.socialmedia .blog:hover::before {
+  content: "\f5fc" " " "check out my blog";
+  transform: translateX(-200px);
+  width: 200px;
+  font-size: 20px;
+  background-color: #e17b77;
+  overflow: visible;
+}
+
+.facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 40px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "\f39e";
+  color: white;
+  background-color: #3b5998;
+  padding: 0;
+  margin-right: 0;
+  transform: width(50px);
+  transition-duration: 1000ms;
+}
+
+.socialmedia .facebook:hover::before {
+  content: "\f39e" " " "look at Facebook ";
+  transform: translateX(-200px);
+  width: 200px;
+  font-size: 20px;
+  background-color: #3b5998;
+}
+
+.twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 40px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "\f099";
+  color: white;
+  background-color: #00aced;
+  padding: 0;
+  margin-right: 0;
+  transform: translateX(0px);
+  transition-duration: 1000ms;
+}
+
+.socialmedia .twitter:hover::before {
+  content: "\f099" " " "follow me on Twitter";
+  transform: translateX(-200px);
+  width: 200px;
+  font-size: 20px;
+  background-color: #00aced;
+}
+
+.github::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 40px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "\f09b";
+  color: white;
+  background-color: #333;
+  padding: 0;
+  margin-right: 0;
+  transform: translateX(0px);
+  transition-duration: 1000ms;
+}
+
+.socialmedia .github:hover::before {
+  content: "\f09b" " " "see projects on Github";
+  transform: translateX(-200px);
+  width: 200px;
+  font-size: 20px;
+  background-color: #333;
+}
+
+.linkedin::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 40px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  content: "\f0e1";
+  color: white;
+  background-color: #007bb6;
+  padding: 0;
+  margin-right: 0;
+  transform: translateX(0px);
+  transition-duration: 1000ms;
+}
+
+.socialmedia .linkedin:hover::before {
+  content: "\f0e1" " " "connect on LinkedIn";
+  transform: translateX(-200px);
+  width: 200px;
+  font-size: 20px;
+  background-color: #007bb6;
+}/*# sourceMappingURL=styles.css.map */
